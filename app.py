@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.ensemble import RandomForestClassifier
 from prediction import get_prediction, ordinal_encoder
 import zipfile
 
