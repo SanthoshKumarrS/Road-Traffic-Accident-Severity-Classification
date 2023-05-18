@@ -8,7 +8,7 @@ import zipfile
 
 
 # Load the model
-model1 = joblib.load(r'/rf_model.joblib')
+model1 = joblib.load(r'Model/rf_model.joblib')
 
 st.set_page_config(page_title="Accident Severity Prediction App",
                    page_icon="🚧", layout="wide")
