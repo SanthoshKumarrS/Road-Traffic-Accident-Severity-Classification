@@ -8,13 +8,7 @@ import zipfile
 
 
 # Load the model
-model1 = joblib.load(r'Model/rf_model.joblib')
-
-# Convert the model to a format that is compatible with the Render server
-joblib.dump(model1, r'Model/rf_model_render.joblib', protocol=4)
-
-# Load the model
-model = joblib.load(r'Model/rf_model_render.joblib')
+model1 = joblib.load(r'/rf_model.joblib')
 
 st.set_page_config(page_title="Accident Severity Prediction App",
                    page_icon="🚧", layout="wide")
