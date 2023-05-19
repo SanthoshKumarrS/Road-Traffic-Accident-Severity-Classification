@@ -10,3 +10,30 @@ This is a multiclass classification project to classify severity of road acciden
 ### Web application
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://road-safety-severity-prediction.onrender.com)
+
+### Tasks and techniques used:
+
+**1. Exploratory data analysis**
+- Data analysis using `Pandas` & `Dabl`
+- Exploratory data analysis using `matplotlib` & `seaborn`
+
+**2. Data preparation and pre-processing**
+- Missing Values Traetment using fillna method
+- One Hot encoding using pandas get_dummies
+- Feature selection using `chi2` statistic and SelectKBest method
+- PCA to reduce dimentinality
+- Imbalance data tretment using `SMOTENC` technique
+
+**3. Modelling using sci-kit learn library**
+- Baseline model using `RandomForest` using default technique 
+- Tuned hyperparameters using `n_estimators` and `max_depth` parameters 
+
+**4. Evaluation**
+- Evaluation metric was weighted `f1_score` 
+- Baseline model evaluation `fl_score = 61%`
+- Final model evaluation `f1_score = 88%`
+
+### References:
+
+1. [Machine learning mastery](https://machinelearningmastery.com/feature-selection-with-categorical-data/)
+2. [Feature engieering techniques](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
