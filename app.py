@@ -8,7 +8,7 @@ import zipfile
 
 
 # Load the model
-model1 = joblib.load(r'Model/rf_model.joblib')
+model = joblib.load(r'Model/rf_model.joblib')
 
 st.set_page_config(page_title="Accident Severity Prediction App",
                    page_icon="🚧", layout="wide")
@@ -70,9 +70,6 @@ def main():
 
         data = np.array([minute,hour,casualties,vehicles_involved,day_of_week,accident_cause,
                          driver_age,light_conditions,junction_type,vehicle_type]).reshape(1,-1)
-
-        print(data)
-        print(model.feature_names_in_)
 
         pred = get_prediction(data=data, model=model)
 
