@@ -19,19 +19,17 @@ This is a multiclass classification project to classify severity of road acciden
 
 **2. Data preparation and pre-processing**
 - Missing Values Traetment using fillna method
-- One Hot encoding using pandas get_dummies
-- Feature selection using `chi2` statistic and SelectKBest method
-- PCA to reduce dimentinality
-- Imbalance data tretment using `SMOTENC` technique
+- Used `Label Encoding` to convert categorical data into numerical data
+- Imbalance data tretment using `SMOTE` technique
 
 **3. Modelling using sci-kit learn library**
-- Baseline model using `RandomForest` using default technique 
-- Tuned hyperparameters using `n_estimators` and `max_depth` parameters 
+- Baseline model using `LogisticRegression`,`RandomForest`,`ExtraTreesClassifier` using default technique 
+- Tuned hyperparameters of `RandomForest` base Model using GridSearchCV 
 
 **4. Evaluation**
 - Evaluation metric was weighted `f1_score` 
-- Baseline model evaluation `fl_score = 61%`
-- Final model evaluation `f1_score = 88%`
+- Baseline model evaluation `fl_score = 76.9%`
+- Final model evaluation `f1_score = 79.6%`, `Accuracy = 85%`
 
 ### References:
 
