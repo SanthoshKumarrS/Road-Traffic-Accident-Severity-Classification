@@ -9,4 +9,4 @@ This is a multiclass classification project to classify severity of road acciden
 
 ### Web application
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://road-traffic-severity-prediction.streamlit.app/](https://road-safety-severity-prediction.onrender.com))
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://road-safety-severity-prediction.onrender.com)
