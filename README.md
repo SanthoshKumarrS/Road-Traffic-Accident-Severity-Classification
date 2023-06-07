@@ -29,7 +29,7 @@ This is a multiclass classification project to classify severity of road acciden
 **4. Evaluation**
 - Evaluation metric was weighted `f1_score` 
 - Baseline model evaluation `fl_score = 76.9%`
-- Final model evaluation `f1_score = 79.6%`, `Accuracy = 85%`
+- Final model evaluation `f1_score = 79.6%`, `Accuracy = 85%` 
 
 ### References:
 
